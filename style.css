@@ -133,3 +133,66 @@ li:hover{
 .box-layout{
     font-weight: lighter;
 }
+
+@media(max-width: 950px){
+
+    nav {
+        display: none;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10vh;
+        
+    }
+
+    header{
+        background-image: url(pictures/menu2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60px;
+        width: 80px;
+        margin-left: 0px;
+    }
+    
+    .box-fruit{
+        display: none;
+    }
+
+    .box-fruit{
+        background-image: url(pictures/laranja\ azul\ mob.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 270vh;
+        width: 177;
+        color: #ffffff;
+    
+    }
+    
+    .box-subtitle{
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        margin-top: 150vh; 
+        font-size: 14vh;  
+        
+    }
+    
+    .box-paragrapy{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 6vh;
+       
+    }
+}
+
+
+    
+
+
