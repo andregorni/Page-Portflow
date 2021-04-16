@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.box-header{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15vh;
+}
+
+.box-portflow{
+    font-weight: bold;
+   
+}
+
+.box-ul{
+    display: flex;
+    list-style: none;
+    margin-right: 15vh;
+
+}
+
+li{
+    margin-left: 5vh;
+    font-weight: lighter;
+
+}   
+
+li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    background: rgb(48, 122, 192);
+    border-radius: 10%;
+}
+
+
+.box-fruit{
+    background-image: url(pictures/laranja\ azul\ recorte.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 10vh;
+    color: #ffffff;
+
+}
+
+
+.box-subtitle{
+    font-size: 8vh;
+    margin-top: 10vh;
+    margin-left: 27vh;
+}
+
+.box-paragrapy{
+    font-weight: lighter;
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-left: 27vh;
+
+}
+
+.box-products{
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+
+}
+
+
+.box-imgs{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.box-img-start{
+    height: 40vh;
+
+}
+
+
+.box-footer{
+    display: flex;
+    height: 10vh;
+    margin-top: 10vh;
+}
+
+.box-redessoc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45vh;
+    margin-left: 24vh;
+}
+
+.imgs-redessoc{
+    height: 4vh;
+}
+
+.imgs-redessoc:hover{
+    background: rgb(48, 122, 192);
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.box-exclusive{
+    display: flex;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 0vh;
+    width: 90vh;
+    font-size: 2vh;
+}
+
+.box-copy{
+    font-weight: bold;
+    margin-right: 5vh;
+}
+
+.box-layout{
+    font-weight: lighter;
+}
