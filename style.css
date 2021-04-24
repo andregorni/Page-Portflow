@@ -9,15 +9,18 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-
+    width: 100%;
+    height: 100vh;
 }
 
 .box-header{
     display: flex;
-    height: 12vh;
     align-items: center;
     justify-content: space-between;
-    margin-left: 15vh;
+    margin:auto;
+    height: 12vh;
+    width: 90%;
+    
 }
 
 .box-portflow{
@@ -28,23 +31,20 @@ body{
 .box-ul{
     display: flex;
     list-style: none;
-    margin-right: 15vh;
 
 }
 
 li{
-    margin-left: 5vh;
     font-weight: lighter;
+    margin-left: 3vw;
 
 }   
 
 li:hover{
     font-weight: bold;
     cursor: pointer;
-    background: rgb(48, 122, 192);
-    border-radius: 10%;
+      
 }
-
 
 .box-fruit{
     background-image: url(pictures/laranja\ azul\ recorte.png);
@@ -55,14 +55,15 @@ li:hover{
     height: 80vh;
     margin-bottom: 10vh;
     color: #ffffff;
-
+    width: 100%; 
+    
 }
-
 
 .box-subtitle{
     font-size: 8vh;
     margin-top: 10vh;
     margin-left: 27vh;
+    width: 90%;
 }
 
 .box-paragrapy{
@@ -73,29 +74,29 @@ li:hover{
 
 }
 
-.box-products{
-    margin-bottom: 2vh;
-    margin-left: 2vh;
-
-}
-
-
 .box-imgs{
     display: flex;
     justify-content: center;  
+    width: 100%;
     
+}
+
+.box-products{
+    margin-bottom: 2vh;
+    margin-left: 2vh;  
+
 }
 
 .box-img-start{
     height: 40vh;
-
+      
 }
-
 
 .box-footer{
     display: flex;
     height: 10vh;
     margin-top: 10vh;
+    width: 100%;
 }
 
 .box-redessoc{
@@ -104,25 +105,25 @@ li:hover{
     justify-content: space-evenly;
     width: 45vh;
     margin-left: 24vh;
+  
 }
 
 .imgs-redessoc{
     height: 4vh;
+    width: 100%;
 }
 
 .imgs-redessoc:hover{
-    background: rgb(48, 122, 192);
     cursor: pointer;
-    border-radius: 10%;
+
 }
 
 .box-exclusive{
     display: flex;
     align-items: center;
-    margin-left: 10vh;
-    margin-right: 0vh;
+    margin: auto;
     width: 90vh;
-    font-size: 2vh;
+    font-size: 2.0vh;
 }
 
 .box-copy{
@@ -134,31 +135,80 @@ li:hover{
     font-weight: lighter;
 }
 
-@media(max-width: 950px){
+
+@media(max-width: 1000px){
+
+.box-subtitle{
+    font-size: 5vh;
+    margin: 0vh;
+}
+
+.box-paragrapy{
+    margin: 0vh; 
+}
+
+
+.box-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+
+.box-redessoc{
+    margin: 0vh;
+}
+
+.box-exclusive{
+    display: inline-block;
+    
+}
+
+.box-copy{
+    display: flex;
+    justify-content: center;
+}
+
+.box-layout{
+    width: 90%;
+}
+
+}
+
+@media(max-width: 425px){
 
     nav {
         display: none;
     }
 
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10vh;
-        
-    }
+   .box-footer{
+       display: none;
+   }
 
-    header{
+   .box-imgs{
+       display: none;
+   }
+
+    .box-header{
         background-image: url(pictures/menu2.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 60px;
         width: 80px;
-        margin-left: 0px;
+        margin: 0;
     }
     
-    .box-fruit{
-        display: none;
+    .box-portflow{
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        
     }
 
     .box-fruit{
@@ -167,29 +217,23 @@ li:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 270vh;
-        width: 177;
+        height: 210vh;
         color: #ffffff;
     
     }
     
     .box-subtitle{
-        display: flex;
-        justify-content: center;
-        width: 100vh;
-        margin-top: 150vh; 
+        margin-top: 130vh; 
         font-size: 14vh;  
         
     }
     
     .box-paragrapy{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-left: 0px;
+        margin:0;
         font-size: 6vh;
        
     }
+
 }
 
 
