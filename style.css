@@ -9,8 +9,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    height: 100vh;
+    
 }
 
 .box-header{
@@ -36,7 +35,8 @@ body{
 
 li{
     font-weight: lighter;
-    margin-left: 3vw;
+    margin-left: 2vw;
+    width: 5vw;
 
 }   
 
@@ -49,41 +49,39 @@ li:hover{
 .box-fruit{
     background-image: url(pictures/laranja\ azul\ recorte.png);
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 80vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5%;
     color: #ffffff;
-    width: 100%; 
     
 }
 
 .box-subtitle{
-    font-size: 8vh;
-    margin-top: 10vh;
-    margin-left: 27vh;
-    width: 90%;
+    font-size: 53px;
+    margin-top: 5%;
+    margin-left: 9vw;
 }
 
 .box-paragrapy{
     font-weight: lighter;
-    font-size: 4vh;
-    margin-top: 5vh;
-    margin-left: 27vh;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 9vw;
 
 }
 
 .box-imgs{
     display: flex;
     justify-content: center;  
-    width: 100%;
     
 }
 
 .box-products{
-    margin-bottom: 2vh;
-    margin-left: 2vh;  
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;  
 
 }
 
@@ -95,16 +93,15 @@ li:hover{
 .box-footer{
     display: flex;
     height: 10vh;
-    margin-top: 10vh;
-    width: 100%;
+    margin-top: 4%;
 }
 
 .box-redessoc{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 45vh;
-    margin-left: 24vh;
+    width: 20%;
+    margin-left: 11vw;
   
 }
 
@@ -122,13 +119,13 @@ li:hover{
     display: flex;
     align-items: center;
     margin: auto;
-    width: 90vh;
-    font-size: 2.0vh;
+    width: 55%;
+    font-size: 12px;
 }
 
 .box-copy{
     font-weight: bold;
-    margin-right: 5vh;
+    margin-right: 2vw;
 }
 
 .box-layout{
@@ -138,13 +135,21 @@ li:hover{
 
 @media(max-width: 1000px){
 
+nav{
+    display: none;
+}
+
 .box-subtitle{
-    font-size: 5vh;
-    margin: 0vh;
+    font-size: 25px;
+    margin-left: 2vw;
+    
 }
 
 .box-paragrapy{
-    margin: 0vh; 
+    font-size: 20px;
+    margin-left: 2vw;
+    
+     
 }
 
 
@@ -163,6 +168,7 @@ li:hover{
 
 .box-redessoc{
     margin: 0vh;
+    width: 50%;
 }
 
 .box-exclusive{
