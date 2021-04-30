@@ -6,4 +6,4 @@
 
 => 1366x768
 
-=> Responsivo em produção
+=> Responsivo
