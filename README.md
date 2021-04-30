@@ -4,6 +4,6 @@
 
 => Página - PORTFLOW
 
-=> 1366x768
+=> Tela 1366x538*
 
 => Responsivo
